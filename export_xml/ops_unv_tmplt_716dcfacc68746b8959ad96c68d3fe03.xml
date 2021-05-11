@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2021-05-11 07:59:39" unload_format="1" unload_table="ops_unv_tmplt" unload_version="6.9.0.0"><ops_unv_tmplt action="INSERT_OR_UPDATE"><credentials_var/><agent/><icon_date_created>2020-10-26 12:09:06</icon_date_created><sys_updated_on>2021-02-11 10:21:37</sys_updated_on><output_return_text/><sys_updated_by>nbuer</sys_updated_by><sys_created_on>2020-10-26 11:48:04</sys_created_on><agent_cluster_var/><agent_cluster_var_check>false</agent_cluster_var_check><wait_for_output>false</wait_for_output><sys_created_by>ops.admin</sys_created_by><output_return_nline>100</output_return_nline><exit_code_text/><exit_code_fr>0</exit_code_fr><runtime_dir/><output_return_type>6</output_return_type><script/><broadcast_cluster_var_check>false</broadcast_cluster_var_check><agent_type>1</agent_type><script_type_windows>uapy</script_type_windows><automatic_output_fr>0</automatic_output_fr><agent_cluster/><name>SAP-ECC-Extract-Job-Definitions</name><exit_codes>0</exit_codes><broadcast_cluster/><use_common_script>false</use_common_script><credentials/><icon_filesize>1604</icon_filesize><icon>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</icon><credential_fr>0</credential_fr><description>v1.28</description><environment_variables_fr>0</environment_variables_fr><agent_var/><icon_filename>sap.logo.png</icon_filename><sys_id>716dcfacc68746b8959ad96c68d3fe03</sys_id><variable_prefix>var</variable_prefix><system_template>false</system_template><script_windows>#!/opt/universal/python3.6/bin/python3
+#         Origins: Stonebranch
+#          Author: Abdullah Saglam
+#          Date: 26-10-2020
+#
+#    Requires Universal Agent for Linux/Windows
+#
+#    Copyright (c) Stonebranch, 2020.  All rights reserved.
+#
+#    Purpose: the script creates for each line of the file sap_all_jobs.txt
+#             one USAP definition file.
+#
+#
+#    Version History:
+#    1.0     ASA     26-10-2020      Created
+#    1.1     ASA     26-10-2020      bugfix
+#    1.2     ASA     27-10-2020      input file separator variable added
+#    1.3     ASA     30-10-2020      bugfix windows path
+#    1.4     ASA     30-10-2020      bugfix windows path
+#    1.5     ASA     30-10-2020      http response message enrichment
+#    1.6     ASA     30-10-2020      http request message debug
+#    1.7     ASA     30-10-2020      bugfix
+#    1.8     ASA     02-11-2020      usap generate job definition
+#    1.9     ASA     02-11-2020      changes
+#    1.10    ASA     02-11-2020      changes
+#    1.11    ASA     02-11-2020      changes
+#    1.12    ASA     02-11-2020      changes
+#    1.13    ASA     02-11-2020      changes
+#    1.14    ASA     02-11-2020      changes
+#    1.15    ASA     02-11-2020      changes
+#    1.16    ASA     03-11-2020      changes
+#    1.17    ASA     03-11-2020      connection types ashost, dest
+#    1.18    NBU     03-11-2020      sapnwrfc.ini
+#    1.19    NBU     05-11-2020      jobdev_ prefix removed
+#    1.20    ASA     05-11-2020      change for non-existent job definition
+#    1.21    ASA     05-11-2020      change for non-existent job definition
+#    1.22    ASA     05-11-2020      change for non-existent job definition
+#    1.23    ASA     05-11-2020      change for non-existent job definition
+#    1.24    ASA     11-11-2020      bugfix
+#    1.25    NBU     12-11-2020      Space in SAP JOB fix
+#    1.26    NBU     12-11-2020      Space in SAP JOB fix
+#    1.27    NBU     17-11-2020      bugfix
+#    1.28    NBU     17-11-2020      bugfix
+#
+
+import logging
+import requests
+import os
+import sys
+import re
+import datetime
+import logging
+import subprocess
+
+gl_version = "1.28"
+gl_variable_prefix = "var"
+gl_connection_type = '${ops_var_connection_type}'
+
+gl_base_url_uac = "${ops_var_base_url_uac}".rstrip(" /")
+gl_auth_uac = ("${_credentialUser('${ops_var_rest_credentials_uac}')}", "${_credentialPwd('${ops_var_rest_credentials_uac}')}")
+gl_time_now = datetime.datetime.now()
+gl_date_today = str(gl_time_now.strftime("%d%m%Y.%H%M%S"))
+gl_num_success_job_def = 0
+gl_num_failed_job_def = 0
+gl_input_file_full_path = r"${_scriptPath('${ops_var_input_script}')} ".strip()
+gl_input_file_full_sep = r"${ops_var_input_sep}"
+gl_log_directory = os.path.join("${ops_var_work_dir} ".strip(), "log")
+gl_jobdef_directory = os.path.join(r"${ops_var_work_dir} ".strip(), "jobdef")
+gl_caldef_directory = os.path.join(r"${ops_var_work_dir} ".strip(), "caldef")
+gl_log_file_full_path = os.path.join(gl_log_directory, f"create_sap_usap_files.{gl_date_today}.log")
+gl_output_file_path = os.path.join(gl_jobdef_directory, str(gl_time_now.strftime("%d%m%Y_%H%M%S") + "_convout"))
+gl_task_name = "${ops_var_launch_task}"
+gl_sap_ashost = "${ops_var_sap_ashost}"
+gl_sap_dest = "${ops_var_sap_dest}"
+gl_sap_client = "${ops_var_sap_client}"
+gl_sap_sysnr = "${ops_var_sap_sysnr}"
+gl_sap_user = '${_credentialUser("${ops_var_sap_cred}")}'
+gl_sap_pwd = '${_credentialPwd("${ops_var_sap_cred}")}'
+
+# -- logging settings DEBUG, INFO, WARNING, ERROR, CRITICAL
+logging.basicConfig(level="${ops_var_loglevel}",
+                    format=' %(asctime)s - %(levelname)s - %(message)s')
+
+
+# -- Main Logic Function
+def main():
+    """calls the required functions to run the stored procedures"""
+    print_variables()
+    create_usap_files()
+
+
+def print_variables():
+    logging.info("Python version &lt;&lt;&lt; " + sys.version + " &gt;&gt;&gt;")
+    logging.info("Executing task version " + gl_version + " with the following "
+                                                          "parameters")
+    logging.info(f"Logfile path: {gl_log_file_full_path}")
+    print_defined_variables(gl_variable_prefix)
+
+
+def print_defined_variables(variable_prefix):
+    all_variables = r"${_scope}"
+    separate_variables = [variable for variable in all_variables.split(', ') if
+                          "ops_" + variable_prefix in variable]
+    logging.info(str(separate_variables).replace(", ", ",\n"))
+
+
+def create_directory_structure(directory_path):
+    try:
+        if not os.path.exists(directory_path):
+            os.mkdir(directory_path)
+            logging.info("Created the directory %s " % directory_path)
+        else:
+            logging.debug("The directory %s already there, will not be re-created" % directory_path)
+    except OSError as e:
+        logging.error("Creation of the directory %s failed: %s" % (directory_path, e))
+
+
+def launch_task(task_name, sap_name, sap_name_ws, sap_id):
+    url = '%s/resources/task/ops-task-launch' % gl_base_url_uac
+    logging.debug('URL: %s' % url)
+    local_headers = {'content-type': 'application/json'}
+
+    data_str = '{"variables": [{"name": "jobname", "value": "%s"}, ' \
+               '{"name": "jobnamews", "value": "%s"}, ' \
+               '{"name": "jobid", "value": "%s"}], "name": "%s"}' \
+               % (sap_name, sap_name_ws, sap_id, task_name)
+    logging.debug('DATA: %s' % data_str)
+
+    response = requests.post(url, headers=local_headers, data=data_str, auth=gl_auth_uac, stream=True)
+
+    if 200 != response.status_code:
+        logging.error('Response: %s' % response)
+        exit(1)
+    else:
+        logging.info('Response 200 received')
+        logging.info('Response: %s' % response)
+
+
+def generate_job_definition(job_name, job_id):
+    escaped_job_name = job_name.replace("\"", r"\"")
+    if gl_connection_type == "ashost":
+        logging.debug("Using ASHOST connection to SAP")
+        cmd_usap = f"usap -ashost {gl_sap_ashost} -client {gl_sap_client} " \
+                   f"-sysnr {gl_sap_sysnr} " \
+                   f"-userid {gl_sap_user} -pwd {gl_sap_pwd} " \
+                   "-generate jobdef -jobname " + '"' + f"{escaped_job_name}" + '"' + f" -jobid {job_id}"
+        logging.debug(cmd_usap)
+    elif gl_connection_type == "dest":
+        logging.debug("Using nwrfc.ini destination connection to SAP")
+        cmd_usap = f"usap -dest {gl_sap_dest} -client {gl_sap_client} " \
+                   f"-userid {gl_sap_user} -pwd {gl_sap_pwd} " \
+                   "-generate jobdef -jobname " + '"' + f"{escaped_job_name}" + '"' + f" -jobid {job_id}"
+    else:
+        logging.error("Wrong connection type, exiting")
+        exit(1)
+    try:
+        process_output = subprocess.check_output(cmd_usap, shell=True)
+    except subprocess.CalledProcessError as e:
+        logging.error(e.output)
+        logging.error("Error Code: " + str(e.returncode))
+        return False
+        # exit(1)
+    formatted_output = process_output.decode(encoding='utf-8', errors='ignore')
+    logging.debug("########## output start ##########")
+    logging.debug(formatted_output)
+    logging.debug("########## output end ##########")
+    job_name_normalized = re.sub(r'[/:*?&lt;&gt;|"\\ ]', "_", job_name)
+    gl_output_file_full_path = os.path.join(gl_output_file_path,
+                                            f"{job_name_normalized}_ID#{job_id}.txt")
+    logging.info(f"Writing into file {gl_output_file_full_path}")
+    try:
+        with open(gl_output_file_full_path, 'w') as output_file:
+            output_file.write(formatted_output)
+            output_file.close()
+    except IOError as exception:
+        logging.error('Operation failed: %s' % exception)
+        exit(1)
+    return True
+
+
+def create_usap_files():
+    global gl_num_success_job_def
+    global gl_num_failed_job_def
+    create_directory_structure(gl_log_directory)
+    create_directory_structure(gl_jobdef_directory)
+    create_directory_structure(gl_output_file_path)
+    try:
+        with open(gl_input_file_full_path, 'r') as input_file, open(gl_log_file_full_path, 'w') as log_file:
+            failed_job_def_msg = ""
+            log_file.writelines("### Processing start: %s\n" % gl_date_today)
+            log_file.writelines("### The following SAP Job definitions have been extracted:\n")
+            for line in input_file:
+                logging.debug("LINE:&lt;" + str(line) + "&gt;")
+                if not line.strip() or line.strip() is "\n":
+                    logging.debug("NEWLINE")
+                    continue
+                try:
+                    sap_name, sap_id = line.rstrip().split(
+                        gl_input_file_full_sep, 1)
+                except ValueError:
+                    gl_num_failed_job_def += 1
+                    info_string = line.rstrip()
+                    failed_job_def_msg += info_string + " could NOT be parsed\n"
+                    logging.error(info_string + " could NOT be parsed")
+                    continue
+                # continue
+                # sap_name and sap_id not empty!!!!
+                # sap_name_ws = re.sub(r'[/:*?&lt;&gt;|"\\ ]', "_", sap_name)
+                info_string = f"{sap_name},{sap_id}"
+                logging.info(info_string)
+                # launch_task(gl_task_name, sap_name, sap_name_ws, sap_id)
+                if generate_job_definition(sap_name, sap_id):
+                    gl_num_success_job_def += 1
+                    log_file.writelines(info_string + "\n")
+                    pass
+                else:
+                    gl_num_failed_job_def += 1
+                    failed_job_def_msg += info_string + " could NOT be extracted\n"
+                    logging.error(info_string + " could NOT be extracted")
+                    pass
+            log_file.writelines(f"### {gl_num_success_job_def} Job definitions have been extracted\n")
+            if gl_num_failed_job_def:
+                log_file.writelines(f"### {gl_num_failed_job_def} Job definitions could NOT be processed\n")
+                log_file.writelines(f"{failed_job_def_msg}")
+            log_file.writelines("### Processing done: %s\n" % gl_date_today)
+    except IOError as exception:
+        logging.error('Operation failed: %s' % exception)
+        exit(1)
+    try:
+        logging.info("### REPORT")
+        with open(gl_log_file_full_path, 'r') as log_file:
+            for line in log_file:
+                logging.info(str(line))
+    except IOError as exception:
+        logging.error('Operation failed: %s' % exception)
+        exit(1)
+
+
+if __name__ == '__main__':
+    main()</script_windows><credentials_var_check>false</credentials_var_check><agent_fr>0</agent_fr><agent_var_check>false</agent_var_check><output_failure_only>false</output_failure_only><output_return_sline>1</output_return_sline><output_type>1</output_type><desktop_interact>false</desktop_interact><script_unix>#!/opt/universal/python3.6/bin/python3
+#         Origins: Stonebranch
+#          Author: Abdullah Saglam
+#          Date: 26-10-2020
+#
+#    Requires Universal Agent for Linux/Windows
+#
+#    Copyright (c) Stonebranch, 2020.  All rights reserved.
+#
+#    Purpose: the script creates for each line of the file sap_all_jobs.txt
+#             one USAP definition file.
+#
+#
+#    Version History:
+#    1.0     ASA     26-10-2020      Created
+#    1.1     ASA     26-10-2020      bugfix
+#    1.2     ASA     27-10-2020      input file separator variable added
+#    1.3     ASA     30-10-2020      bugfix windows path
+#    1.4     ASA     30-10-2020      bugfix windows path
+#    1.5     ASA     30-10-2020      http response message enrichment
+#    1.6     ASA     30-10-2020      http request message debug
+#    1.7     ASA     30-10-2020      bugfix
+#    1.8     ASA     02-11-2020      usap generate job definition
+#    1.9     ASA     02-11-2020      changes
+#    1.10    ASA     02-11-2020      changes
+#    1.11    ASA     02-11-2020      changes
+#    1.12    ASA     02-11-2020      changes
+#    1.13    ASA     02-11-2020      changes
+#    1.14    ASA     02-11-2020      changes
+#    1.15    ASA     02-11-2020      changes
+#    1.16    ASA     03-11-2020      changes
+#    1.17    ASA     03-11-2020      connection types ashost, dest
+#    1.18    NBU     03-11-2020      sapnwrfc.ini
+#    1.19    NBU     05-11-2020      jobdev_ prefix removed
+#    1.20    ASA     05-11-2020      change for non-existent job definition
+#    1.21    ASA     05-11-2020      change for non-existent job definition
+#    1.22    ASA     05-11-2020      change for non-existent job definition
+#    1.23    ASA     05-11-2020      change for non-existent job definition
+#    1.24    ASA     11-11-2020      bugfix
+#    1.25    NBU     12-11-2020      Space in SAP JOB fix
+#    1.26    NBU     12-11-2020      Space in SAP JOB fix
+#    1.27    NBU     17-11-2020      bugfix
+#    1.28    NBU     17-11-2020      bugfix
+#
+
+import logging
+import requests
+import os
+import sys
+import re
+import datetime
+import logging
+import subprocess
+
+gl_version = "1.28"
+gl_variable_prefix = "var"
+gl_connection_type = '${ops_var_connection_type}'
+
+gl_base_url_uac = "${ops_var_base_url_uac}".rstrip(" /")
+gl_auth_uac = ("${_credentialUser('${ops_var_rest_credentials_uac}')}", "${_credentialPwd('${ops_var_rest_credentials_uac}')}")
+gl_time_now = datetime.datetime.now()
+gl_date_today = str(gl_time_now.strftime("%d%m%Y.%H%M%S"))
+gl_num_success_job_def = 0
+gl_num_failed_job_def = 0
+gl_input_file_full_path = r"${_scriptPath('${ops_var_input_script}')} ".strip()
+gl_input_file_full_sep = r"${ops_var_input_sep}"
+gl_log_directory = os.path.join("${ops_var_work_dir} ".strip(), "log")
+gl_jobdef_directory = os.path.join(r"${ops_var_work_dir} ".strip(), "jobdef")
+gl_caldef_directory = os.path.join(r"${ops_var_work_dir} ".strip(), "caldef")
+gl_log_file_full_path = os.path.join(gl_log_directory, f"create_sap_usap_files.{gl_date_today}.log")
+gl_output_file_path = os.path.join(gl_jobdef_directory, str(gl_time_now.strftime("%d%m%Y_%H%M%S") + "_convout"))
+gl_task_name = "${ops_var_launch_task}"
+gl_sap_ashost = "${ops_var_sap_ashost}"
+gl_sap_dest = "${ops_var_sap_dest}"
+gl_sap_client = "${ops_var_sap_client}"
+gl_sap_sysnr = "${ops_var_sap_sysnr}"
+gl_sap_user = '${_credentialUser("${ops_var_sap_cred}")}'
+gl_sap_pwd = '${_credentialPwd("${ops_var_sap_cred}")}'
+
+# -- logging settings DEBUG, INFO, WARNING, ERROR, CRITICAL
+logging.basicConfig(level="${ops_var_loglevel}",
+                    format=' %(asctime)s - %(levelname)s - %(message)s')
+
+
+# -- Main Logic Function
+def main():
+    """calls the required functions to run the stored procedures"""
+    print_variables()
+    create_usap_files()
+
+
+def print_variables():
+    logging.info("Python version &lt;&lt;&lt; " + sys.version + " &gt;&gt;&gt;")
+    logging.info("Executing task version " + gl_version + " with the following "
+                                                          "parameters")
+    logging.info(f"Logfile path: {gl_log_file_full_path}")
+    print_defined_variables(gl_variable_prefix)
+
+
+def print_defined_variables(variable_prefix):
+    all_variables = r"${_scope}"
+    separate_variables = [variable for variable in all_variables.split(', ') if
+                          "ops_" + variable_prefix in variable]
+    logging.info(str(separate_variables).replace(", ", ",\n"))
+
+
+def create_directory_structure(directory_path):
+    try:
+        if not os.path.exists(directory_path):
+            os.mkdir(directory_path)
+            logging.info("Created the directory %s " % directory_path)
+        else:
+            logging.debug("The directory %s already there, will not be re-created" % directory_path)
+    except OSError as e:
+        logging.error("Creation of the directory %s failed: %s" % (directory_path, e))
+
+
+def launch_task(task_name, sap_name, sap_name_ws, sap_id):
+    url = '%s/resources/task/ops-task-launch' % gl_base_url_uac
+    logging.debug('URL: %s' % url)
+    local_headers = {'content-type': 'application/json'}
+
+    data_str = '{"variables": [{"name": "jobname", "value": "%s"}, ' \
+               '{"name": "jobnamews", "value": "%s"}, ' \
+               '{"name": "jobid", "value": "%s"}], "name": "%s"}' \
+               % (sap_name, sap_name_ws, sap_id, task_name)
+    logging.debug('DATA: %s' % data_str)
+
+    response = requests.post(url, headers=local_headers, data=data_str, auth=gl_auth_uac, stream=True)
+
+    if 200 != response.status_code:
+        logging.error('Response: %s' % response)
+        exit(1)
+    else:
+        logging.info('Response 200 received')
+        logging.info('Response: %s' % response)
+
+
+def generate_job_definition(job_name, job_id):
+    escaped_job_name = job_name.replace("\"", r"\"")
+    if gl_connection_type == "ashost":
+        logging.debug("Using ASHOST connection to SAP")
+        cmd_usap = f"usap -ashost {gl_sap_ashost} -client {gl_sap_client} " \
+                   f"-sysnr {gl_sap_sysnr} " \
+                   f"-userid {gl_sap_user} -pwd {gl_sap_pwd} " \
+                   "-generate jobdef -jobname " + '"' + f"{escaped_job_name}" + '"' + f" -jobid {job_id}"
+        logging.debug(cmd_usap)
+    elif gl_connection_type == "dest":
+        logging.debug("Using nwrfc.ini destination connection to SAP")
+        cmd_usap = f"usap -dest {gl_sap_dest} -client {gl_sap_client} " \
+                   f"-userid {gl_sap_user} -pwd {gl_sap_pwd} " \
+                   "-generate jobdef -jobname " + '"' + f"{escaped_job_name}" + '"' + f" -jobid {job_id}"
+    else:
+        logging.error("Wrong connection type, exiting")
+        exit(1)
+    try:
+        process_output = subprocess.check_output(cmd_usap, shell=True)
+    except subprocess.CalledProcessError as e:
+        logging.error(e.output)
+        logging.error("Error Code: " + str(e.returncode))
+        return False
+        # exit(1)
+    formatted_output = process_output.decode(encoding='utf-8', errors='ignore')
+    logging.debug("########## output start ##########")
+    logging.debug(formatted_output)
+    logging.debug("########## output end ##########")
+    job_name_normalized = re.sub(r'[/:*?&lt;&gt;|"\\ ]', "_", job_name)
+    gl_output_file_full_path = os.path.join(gl_output_file_path,
+                                            f"{job_name_normalized}_ID#{job_id}.txt")
+    logging.info(f"Writing into file {gl_output_file_full_path}")
+    try:
+        with open(gl_output_file_full_path, 'w') as output_file:
+            output_file.write(formatted_output)
+            output_file.close()
+    except IOError as exception:
+        logging.error('Operation failed: %s' % exception)
+        exit(1)
+    return True
+
+
+def create_usap_files():
+    global gl_num_success_job_def
+    global gl_num_failed_job_def
+    create_directory_structure(gl_log_directory)
+    create_directory_structure(gl_jobdef_directory)
+    create_directory_structure(gl_output_file_path)
+    try:
+        with open(gl_input_file_full_path, 'r') as input_file, open(gl_log_file_full_path, 'w') as log_file:
+            failed_job_def_msg = ""
+            log_file.writelines("### Processing start: %s\n" % gl_date_today)
+            log_file.writelines("### The following SAP Job definitions have been extracted:\n")
+            for line in input_file:
+                logging.debug("LINE:&lt;" + str(line) + "&gt;")
+                if not line.strip() or line.strip() is "\n":
+                    logging.debug("NEWLINE")
+                    continue
+                try:
+                    sap_name, sap_id = line.rstrip().split(
+                        gl_input_file_full_sep, 1)
+                except ValueError:
+                    gl_num_failed_job_def += 1
+                    info_string = line.rstrip()
+                    failed_job_def_msg += info_string + " could NOT be parsed\n"
+                    logging.error(info_string + " could NOT be parsed")
+                    continue
+                # continue
+                # sap_name and sap_id not empty!!!!
+                # sap_name_ws = re.sub(r'[/:*?&lt;&gt;|"\\ ]', "_", sap_name)
+                info_string = f"{sap_name},{sap_id}"
+                logging.info(info_string)
+                # launch_task(gl_task_name, sap_name, sap_name_ws, sap_id)
+                if generate_job_definition(sap_name, sap_id):
+                    gl_num_success_job_def += 1
+                    log_file.writelines(info_string + "\n")
+                    pass
+                else:
+                    gl_num_failed_job_def += 1
+                    failed_job_def_msg += info_string + " could NOT be extracted\n"
+                    logging.error(info_string + " could NOT be extracted")
+                    pass
+            log_file.writelines(f"### {gl_num_success_job_def} Job definitions have been extracted\n")
+            if gl_num_failed_job_def:
+                log_file.writelines(f"### {gl_num_failed_job_def} Job definitions could NOT be processed\n")
+                log_file.writelines(f"{failed_job_def_msg}")
+            log_file.writelines("### Processing done: %s\n" % gl_date_today)
+    except IOError as exception:
+        logging.error('Operation failed: %s' % exception)
+        exit(1)
+    try:
+        logging.info("### REPORT")
+        with open(gl_log_file_full_path, 'r') as log_file:
+            for line in log_file:
+                logging.info(str(line))
+    except IOError as exception:
+        logging.error('Operation failed: %s' % exception)
+        exit(1)
+
+
+if __name__ == '__main__':
+    main()</script_unix><output_return_file/><run_as_sudo>false</run_as_sudo><broadcast_cluster_var/><environment/><elevate_user>false</elevate_user><exit_code_output/><exit_code_processing>1</exit_code_processing><create_console>false</create_console><related_items_node><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2020-11-12 11:35:37</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><field_mask/><boolean_no_value/><require_if_field/><sys_id>09c257894d6740979c6db8e416d48116</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>nbuer</sys_updated_by><array_value_title/><sys_created_on>2020-11-12 11:35:37</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value>ashost</field_value><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>nbuer</sys_created_by><int_field_min/><universal_template_id>716dcfacc68746b8959ad96c68d3fe03</universal_template_id><show_if_field/><boolean_yes_value/><form_col_span>1</form_col_span><field_length/><form_end_row>false</form_end_row><label>SAP Connection Type</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>16</sequence><show_if_field_value/><form_row_span>1</form_row_span><default_list_view>false</default_list_view><hint/><field_mapping>choiceField2</field_mapping><name>connection_type</name><field_regex/><field_type>4</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2021-05-11 07:59:34</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><field_mask/><boolean_no_value/><require_if_field/><sys_id>157a31809dfa45ac87cbd55678e867c4</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>nbuer</sys_updated_by><array_value_title/><sys_created_on>2020-11-12 11:35:37</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>nbuer</sys_created_by><int_field_min/><universal_template_id>716dcfacc68746b8959ad96c68d3fe03</universal_template_id><show_if_field/><boolean_yes_value/><form_col_span>1</form_col_span><field_length/><form_end_row>false</form_end_row><label>Universal Controller Credentials</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>1</sequence><show_if_field_value/><form_row_span>1</form_row_span><default_list_view>false</default_list_view><hint/><field_mapping>credentialField2</field_mapping><name>rest_credentials_uac</name><field_regex/><field_type>5</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2020-11-12 11:35:37</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><field_mask/><boolean_no_value/><require_if_field/><sys_id>1c7d1ace355342e681164a18e525cf68</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>nbuer</sys_updated_by><array_value_title/><sys_created_on>2020-11-12 11:35:37</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>nbuer</sys_created_by><int_field_min/><universal_template_id>716dcfacc68746b8959ad96c68d3fe03</universal_template_id><show_if_field>choiceField2</show_if_field><boolean_yes_value/><form_col_span>1</form_col_span><field_length/><form_end_row>false</form_end_row><label>SAP Dest</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>21</sequence><show_if_field_value>dest</show_if_field_value><form_row_span>1</form_row_span><default_list_view>false</default_list_view><hint/><field_mapping>textField2</field_mapping><name>sap_dest</name><field_regex/><field_type>1</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2020-11-12 11:35:37</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><field_mask/><boolean_no_value/><require_if_field/><sys_id>1dd7f305d44c498691585e27a40c585c</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>nbuer</sys_updated_by><array_value_title/><sys_created_on>2020-11-12 11:35:37</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>nbuer</sys_created_by><int_field_min/><universal_template_id>716dcfacc68746b8959ad96c68d3fe03</universal_template_id><show_if_field/><boolean_yes_value/><form_col_span>1</form_col_span><field_length/><form_end_row>false</form_end_row><label>Working Directory</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>11</sequence><show_if_field_value/><form_row_span>1</form_row_span><default_list_view>false</default_list_view><hint/><field_mapping>textField1</field_mapping><name>work_dir</name><field_regex/><field_type>1</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2020-11-12 11:35:37</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><field_mask/><boolean_no_value/><require_if_field/><sys_id>45c030bd29414c8e8ea5f7284d6286b2</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>nbuer</sys_updated_by><array_value_title/><sys_created_on>2020-11-12 11:35:37</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>nbuer</sys_created_by><int_field_min/><universal_template_id>716dcfacc68746b8959ad96c68d3fe03</universal_template_id><show_if_field/><boolean_yes_value/><form_col_span>1</form_col_span><field_length/><form_end_row>false</form_end_row><label>SAP Client</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>19</sequence><show_if_field_value/><form_row_span>1</form_row_span><default_list_view>false</default_list_view><hint/><field_mapping>textField6</field_mapping><name>sap_client</name><field_regex/><field_type>1</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>true</form_start_row><sys_updated_on>2020-11-12 11:35:37</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><field_mask/><boolean_no_value/><require_if_field/><sys_id>5462f622e04544bb82a93a0a1497e88c</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>nbuer</sys_updated_by><array_value_title/><sys_created_on>2020-11-12 11:35:37</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value>DEBUG</field_value><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>nbuer</sys_created_by><int_field_min/><universal_template_id>716dcfacc68746b8959ad96c68d3fe03</universal_template_id><show_if_field/><boolean_yes_value/><form_col_span>1</form_col_span><field_length/><form_end_row>false</form_end_row><label>Loglevel</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>22</sequence><show_if_field_value/><form_row_span>1</form_row_span><default_list_view>false</default_list_view><hint>DEBUG, INFO, WARNING, ERROR, CRITICAL log levels of Task</hint><field_mapping>choiceField1</field_mapping><name>loglevel</name><field_regex/><field_type>4</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2020-11-12 11:35:37</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><field_mask/><boolean_no_value/><require_if_field/><sys_id>80d0a9b9dc34430798afee4e8a4bc3a7</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>nbuer</sys_updated_by><array_value_title/><sys_created_on>2020-11-12 11:35:37</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value>,</field_value><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>nbuer</sys_created_by><int_field_min/><universal_template_id>716dcfacc68746b8959ad96c68d3fe03</universal_template_id><show_if_field/><boolean_yes_value/><form_col_span>1</form_col_span><field_length/><form_end_row>false</form_end_row><label>Input File Separator</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>14</sequence><show_if_field_value/><form_row_span>1</form_row_span><default_list_view>false</default_list_view><hint/><field_mapping>textField4</field_mapping><name>input_sep</name><field_regex/><field_type>1</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2021-05-11 07:58:17</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><field_mask/><boolean_no_value/><require_if_field/><sys_id>98d7ccdc3b1a4a348f6a8cd0ef30ffa3</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>nbuer</sys_updated_by><array_value_title/><sys_created_on>2020-11-12 11:35:37</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>nbuer</sys_created_by><int_field_min/><universal_template_id>716dcfacc68746b8959ad96c68d3fe03</universal_template_id><show_if_field/><boolean_yes_value/><form_col_span>1</form_col_span><field_length/><form_end_row>false</form_end_row><label>SAP Credentials</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>17</sequence><show_if_field_value/><form_row_span>1</form_row_span><default_list_view>false</default_list_view><hint/><field_mapping>credentialField1</field_mapping><name>sap_cred</name><field_regex/><field_type>5</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2020-11-12 11:35:37</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><field_mask/><boolean_no_value/><require_if_field/><sys_id>d5b26c7d04fd4f7b96158166942d9461</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>nbuer</sys_updated_by><array_value_title/><sys_created_on>2020-11-12 11:35:37</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>nbuer</sys_created_by><int_field_min/><universal_template_id>716dcfacc68746b8959ad96c68d3fe03</universal_template_id><show_if_field/><boolean_yes_value/><form_col_span>1</form_col_span><field_length/><form_end_row>false</form_end_row><label>Input File</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>15</sequence><show_if_field_value/><form_row_span>1</form_row_span><default_list_view>false</default_list_view><hint>Input File Script</hint><field_mapping>scriptField1</field_mapping><name>input_script</name><field_regex/><field_type>6</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2020-11-12 11:35:37</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><field_mask/><boolean_no_value/><require_if_field/><sys_id>f1642ce8558540d7810b4fc7fc6e7bbe</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>nbuer</sys_updated_by><array_value_title/><sys_created_on>2020-11-12 11:35:37</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>nbuer</sys_created_by><int_field_min/><universal_template_id>716dcfacc68746b8959ad96c68d3fe03</universal_template_id><show_if_field>choiceField2</show_if_field><boolean_yes_value/><form_col_span>1</form_col_span><field_length/><form_end_row>false</form_end_row><label>SAP Ashost</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>18</sequence><show_if_field_value>ashost</show_if_field_value><form_row_span>1</form_row_span><default_list_view>false</default_list_view><hint/><field_mapping>textField5</field_mapping><name>sap_ashost</name><field_regex/><field_type>1</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>true</form_start_row><sys_updated_on>2020-11-12 11:35:37</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><field_mask/><boolean_no_value/><require_if_field/><sys_id>f350bdbf05fd4c2282c80857dffca0e7</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>nbuer</sys_updated_by><array_value_title/><sys_created_on>2020-11-12 11:35:37</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>nbuer</sys_created_by><int_field_min/><universal_template_id>716dcfacc68746b8959ad96c68d3fe03</universal_template_id><show_if_field/><boolean_yes_value/><form_col_span>1</form_col_span><field_length/><form_end_row>false</form_end_row><label>Universal Controller URL</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>0</sequence><show_if_field_value/><form_row_span>1</form_row_span><default_list_view>false</default_list_view><hint>Universal Controller URL</hint><field_mapping>textField8</field_mapping><name>base_url_uac</name><field_regex/><field_type>1</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2020-11-12 11:35:37</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><field_mask/><boolean_no_value/><require_if_field/><sys_id>f85f73829ff244f49616a6818f285269</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>nbuer</sys_updated_by><array_value_title/><sys_created_on>2020-11-12 11:35:37</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>nbuer</sys_created_by><int_field_min/><universal_template_id>716dcfacc68746b8959ad96c68d3fe03</universal_template_id><show_if_field>choiceField2</show_if_field><boolean_yes_value/><form_col_span>1</form_col_span><field_length/><form_end_row>false</form_end_row><label>SAP Sysnr</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>20</sequence><show_if_field_value>ashost</show_if_field_value><form_row_span>1</form_row_span><default_list_view>false</default_list_view><hint/><field_mapping>textField9</field_mapping><name>sap_sysnr</name><field_regex/><field_type>1</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>09c257894d6740979c6db8e416d48116</field_id><use_field_value_for_label>false</use_field_value_for_label><sys_id>28fe592daf4244bebae4b7fc16f89a2a</sys_id><sequence>1</sequence><sys_updated_by>nbuer</sys_updated_by><sys_created_on>2020-11-12 11:35:37</sys_created_on><field_value_label>SAPNWRFC.INI Connection</field_value_label><field_value>dest</field_value><sys_updated_on>2020-11-12 11:35:37</sys_updated_on><sys_created_by>nbuer</sys_created_by><universal_template_id>716dcfacc68746b8959ad96c68d3fe03</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>5462f622e04544bb82a93a0a1497e88c</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>35fb1c155a0b4f55845389ed850a11cc</sys_id><sequence>1</sequence><sys_updated_by>nbuer</sys_updated_by><sys_created_on>2020-11-12 11:35:37</sys_created_on><field_value_label>INFO</field_value_label><field_value>INFO</field_value><sys_updated_on>2020-11-12 11:35:37</sys_updated_on><sys_created_by>nbuer</sys_created_by><universal_template_id>716dcfacc68746b8959ad96c68d3fe03</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>09c257894d6740979c6db8e416d48116</field_id><use_field_value_for_label>false</use_field_value_for_label><sys_id>561a8ff06fa2415ea6ddf4db700f8c73</sys_id><sequence>0</sequence><sys_updated_by>nbuer</sys_updated_by><sys_created_on>2020-11-12 11:35:37</sys_created_on><field_value_label>Application Server Connection</field_value_label><field_value>ashost</field_value><sys_updated_on>2020-11-12 11:35:37</sys_updated_on><sys_created_by>nbuer</sys_created_by><universal_template_id>716dcfacc68746b8959ad96c68d3fe03</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>5462f622e04544bb82a93a0a1497e88c</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>5e799d57eaa6453ea4938c69b4e7d782</sys_id><sequence>0</sequence><sys_updated_by>nbuer</sys_updated_by><sys_created_on>2020-11-12 11:35:37</sys_created_on><field_value_label>DEBUG</field_value_label><field_value>DEBUG</field_value><sys_updated_on>2020-11-12 11:35:37</sys_updated_on><sys_created_by>nbuer</sys_created_by><universal_template_id>716dcfacc68746b8959ad96c68d3fe03</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>5462f622e04544bb82a93a0a1497e88c</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>b4238f9679a54e89b16eb7593ecceabe</sys_id><sequence>4</sequence><sys_updated_by>nbuer</sys_updated_by><sys_created_on>2020-11-12 11:35:37</sys_created_on><field_value_label>ERROR</field_value_label><field_value>ERROR</field_value><sys_updated_on>2020-11-12 11:35:37</sys_updated_on><sys_created_by>nbuer</sys_created_by><universal_template_id>716dcfacc68746b8959ad96c68d3fe03</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>5462f622e04544bb82a93a0a1497e88c</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>c764f54492ac44cc970c95bc98b73384</sys_id><sequence>3</sequence><sys_updated_by>nbuer</sys_updated_by><sys_created_on>2020-11-12 11:35:37</sys_created_on><field_value_label>CRITICAL</field_value_label><field_value>CRITICAL</field_value><sys_updated_on>2020-11-12 11:35:37</sys_updated_on><sys_created_by>nbuer</sys_created_by><universal_template_id>716dcfacc68746b8959ad96c68d3fe03</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>5462f622e04544bb82a93a0a1497e88c</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>ffa0b717044b4964b77f9884fb2efcbe</sys_id><sequence>2</sequence><sys_updated_by>nbuer</sys_updated_by><sys_created_on>2020-11-12 11:35:37</sys_created_on><field_value_label>WARNING</field_value_label><field_value>WARNING</field_value><sys_updated_on>2020-11-12 11:35:37</sys_updated_on><sys_created_by>nbuer</sys_created_by><universal_template_id>716dcfacc68746b8959ad96c68d3fe03</universal_template_id></ops_unv_tmplt_field_choice></related_items_node></ops_unv_tmplt></unload>
